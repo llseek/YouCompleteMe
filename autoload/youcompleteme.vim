@@ -1341,7 +1341,7 @@ if exists( '*popup_atcursor' )
       if index( cmds, 'GetHover' ) >= 0
         let b:ycm_hover = {
               \ 'command': 'GetHover',
-              \ 'syntax': 'markdown',
+              \ 'syntax': '',
               \ }
       elseif index( cmds, 'GetDoc' ) >= 0
         let b:ycm_hover = {
